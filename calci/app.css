@@ -1,0 +1,65 @@
+body{
+    background-color: blue;
+}
+h1{
+    text-align: center;
+}
+.screen{
+    background-color: grey;
+    border: 3px solid black;
+    margin: auto;
+    margin-bottom: 8px;
+    font-size: medium;
+    width: 100%;
+    padding: 10px;
+    cursor: default;
+    margin-right: 20px;
+}
+input[type="button"]:hover{
+    color:blue;
+}
+input[type="button"]:active{
+    color: green;
+}
+.operator{
+    border: 2px solid red;
+    width: 50%;
+    height: 40px;
+    background-color: indianred;
+}
+.number{
+    border: 2px solid red;
+    width: 50%;
+    height: 40px;
+    background-color: green;
+}
+.decimal{
+    border: 2px solid red;
+    width: 50%;
+    height: 40px;
+    background-color: red;
+}
+.clear{
+    background-color: grey;
+    border: 3px solid black;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: small;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.container{
+    background-color: white;
+    padding: 15px;
+    color: black;
+    border: 2px solid black;
+    width: 40%;
+    display: block;
+    align-self: center;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+table{
+    width: 100%;
+}
